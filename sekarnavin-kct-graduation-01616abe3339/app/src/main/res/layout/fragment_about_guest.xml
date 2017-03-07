@@ -1,0 +1,147 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.iqube.kctgrad.about_guest">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="10sp"
+        android:background="#FF2E2E2E"
+        >
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="4dp"
+            >
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10sp">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bozenna"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ms. BOZENNA PASIK-DUNCAN"
+                    android:id="@+id/name1"
+                    android:textSize="24sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University of kanvas , USA"
+                    android:id="@+id/post1"
+                    android:textColor="#1a7ae7"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bozenna Pasik-Duncan received the Master's degree in Mathematics from the University of Warsaw in 1970,and the Ph.D.and D.Sc.(Habilitation) degrees from the Warsaw School of Economics in Poland in 1978 and 1986, respectively.
+
+\n\n\tBefore moving to the University of Kansas (KU) in 1984, she was a faculty member of the Department of Mathematics at Warsaw School of Economics.
+
+
+At KU she is a Professor of Mathematics, a Courtesy Professor of both EECS and AE, and an ITTC Investigator, a Chancellors Club Teaching Professor, and a member of the KU Women's Hall of Fame.
+
+\n\n\tShe is a Fellow of IEEE, a Fellow of IFAC, a recipient of the IEEE Third Millennium Medal, and IEEE CSS Distinguished Member Award.
+
+She has served in many capacities in several societies including IEEE CSS Vice President, three term IEEE CSS BoG member, and two term Program Director of SIAM Activity Group on Systems Theory and Control.
+
+\n\n\tHer current service includes Deputy Chair of the CSS TC on Control Education, Chair of the AACC Education Committee,a member of the IFAC TB as the Education Liaison,
+a member of IEEE WIE Committee and its 2017 Chair, a member of the IEEE SSIT BoG, and a member of the SIAM Activity Group on Systems Theory and Control Conference Steering Committee.
+
+\n\n\tShe is founder of Women in Control, first chair of IEEE CSS Standing Committee on Women in Control, founder and faculty advisor of Association for Women in Mathematics Student Chapter at KU, founder and coordinator of the MAM/ Outreach Program at KU, and founder and chair of Stochastic Adaptive Control Seminar at KU.
+
+\n\n\tShe is an Associate Editor of several Journals, and an author and co-author of over 170 technical papers and book chapters.
+
+Her research interests are primarily in stochastic systems and stochastic adaptive control and in STEM education.
+
+\n\n\tShe is a recipient of many awards including IREX Fellow, NSF Career Advancement Award, KU Women of Distinction, Service to Kansas, H.O.P.E.. IREX, Kemper, L. Hay, Morrison, Price, Polish Ministry of Higher Education Award, and recently received the 2016 IEEE EAB Meritorious Achievement Award in Continuing Education."
+                    android:id="@+id/description1"
+                    android:layout_marginTop="10sp" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view2"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="4dp"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10sp">
+
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="415dp"
+                    android:src="@drawable/speaker_2"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mr. HARISH MYSORE"
+                    android:id="@+id/name2"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Director - IEEE India Operations"
+                    android:id="@+id/post2"
+                    android:textColor="#1a7ae7"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Harish Mysore is the first IEEE – Director of India operations based in Bangalore India. \n\n\tHarish is focusing on overall development of IEEE in India specially focused on IEEE Standards and Educational programs. India office works on to increase IEEE visibility through various initiatives. IEEE India office provides support for IEEE sections, Society Chapters, affinity groups and Conferences. Harish is working towards bringing internationally acclaimed IEEE seminars and Conferences to India.
+
+\n\n\tHarish has worked in Technology industries for over 25 years in India. Prior to IEEE Harish worked in IBM India Labs and handled IP Licensing and Alliances program and technology operations for IBM in India. Harish has worked in Texas Instruments. Motorola, Analog Devices and Wirpo in technology development and business leadership roles.
+
+\n\n\tHarish has understanding of Semiconductors, Wireless Communications, Signal processing and system design domains and has been member of various Industry bodies and served in several committees.
+
+\n\n\tHarish has an Electronics and Communications Degree from National Institute of Engineering (NIE), Mysore University and has interest in Technology management and Agriculture."
+                    android:id="@+id/description2"
+                    android:layout_marginTop="10sp" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

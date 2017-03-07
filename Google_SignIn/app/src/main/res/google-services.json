@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "356131324868",
+    "project_id": "wide-cargo-140219"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356131324868:android:6a7f574fe87bfc10",
+        "android_client_info": {
+          "package_name": "com.example.android.google_signin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356131324868-ktv0s6t1d7roin8ki79bf5v595va58nl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.google_signin",
+            "certificate_hash": "A5B44488A069DE8A3AF5FEBA45EB30A3F6704AA5"
+          }
+        },
+        {
+          "client_id": "356131324868-6mtombb4321t0rf28g9c9venbeoa25ra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqejN0Zye0LmYry8m4YHOHagEevv3a99o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

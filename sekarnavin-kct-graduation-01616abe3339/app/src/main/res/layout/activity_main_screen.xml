@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+        <android.support.v7.widget.CardView
+
+            android:background="#FF2E2E2E"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="4dp">
+
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="1sp"
+                >
+
+                <ImageView
+                    android:scaleType="fitStart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/img_iee"
+                    android:src="@drawable/ieee_make"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="SS12"
+                    android:typeface="serif"
+                    android:textSize="40dp"
+                    android:textStyle="italic|bold"
+                    android:id="@+id/textView3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\t\t\tSS12 is a Code-A-Thon and Make-A-Thon Challenge organized to recognize the best social innovators in Asia Pacific. The theme for this year is “Enhancing the quality of Life through Innovation”. Students form Universities all over Asia and Middle East will be participating displaying their engineering skills."
+                    android:id="@+id/textView4"
+                    android:layout_marginTop="10sp"/>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="180dp"
+                    android:id="@+id/image_view1"
+                    android:src="@drawable/capture"
+                    android:scaleType="fitCenter"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageView
+                    android:id="@+id/image_view3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:src="@drawable/contact"
+                    android:layout_gravity="center_horizontal" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+</RelativeLayout>
